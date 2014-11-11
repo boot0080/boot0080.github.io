@@ -1,0 +1,20 @@
+# TEAM
+
+Designer and developer: Ariah Boots
+site: http://ariahboots.ca
+Github: http://github.com/ariahboots
+Twitter: @ariahboots
+Location: Ottawa, Canada
+
+___
+
+# THANKS
+
+Big Image 
+
+
+# TECHNOLOGY
+
+-Brackets
+-GitHub
+-Hover.com

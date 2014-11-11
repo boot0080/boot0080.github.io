@@ -1,0 +1,24 @@
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.grid {
+border: 1px solid red; 	
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+	background-color: #fff;
+}
+
+.unit-2-3 {
+	width: 66.6667%;
+}
+
+.gutter {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
