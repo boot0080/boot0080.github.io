@@ -24,6 +24,12 @@ body{
 	width: 100%;
 }
 
+@media only screen and (min-width: 100em){
+	html{
+		font-size: 1.5em;
+	}
+}
+
 /* Navigation */
 
 header {
@@ -52,7 +58,7 @@ nav a:link,
 nav a:visited {
 	color: #ffffff;
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 500;
 
 }
 
@@ -60,8 +66,14 @@ nav a:visited {
 	width: 9rem;
 	display: block;
 	margin: 0 auto;
-	float: left;
 }
+
+@media only screen and (min-width: 35em){
+	.logo {
+		float: left;
+	}
+}
+
 
 /* Content */
 
@@ -125,3 +137,4 @@ nav a:visited {
 	background-color: #c1c1c1;	
 }
 /*footer*/
+
