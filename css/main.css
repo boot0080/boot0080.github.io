@@ -52,6 +52,7 @@ nav a:link,
 nav a:visited {
 	color: #ffffff;
 	text-decoration: none;
+	font-weight: 600;
 
 }
 
@@ -84,7 +85,8 @@ nav a:visited {
 }
 
 .about, h2 {
-	text-align: center;	
+	text-align: center;
+	padding-bottom: 1em;
 }
 
 .about, h6 {
