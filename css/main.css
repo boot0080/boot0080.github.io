@@ -74,14 +74,14 @@ header {
 }
 
 nav li {
-	display: inline;
 	text-transform: uppercase;
 	letter-spacing: .85px;
 	font-size: .85rem;
 	font-family: Open Sans, Helvetica, sans-serif;
 	margin-left: 20px;
-	float: right;
 	padding-right: 2em;
+	height: 2em;
+	text-align: center;
 }
 
 
