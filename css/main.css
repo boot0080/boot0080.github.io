@@ -221,5 +221,14 @@ section {
 #portfolio-display {
 	background-color: #c1c1c1;	
 }
+
+
+/* Portfolio Pages */
+
+#portfolio-page {
+	background-color: #c9c9c9;
+		padding: 20em 5%;
+}
+
 /*footer*/
 

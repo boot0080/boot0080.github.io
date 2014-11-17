@@ -501,9 +501,12 @@
 
 }
 
+.gutter {
+	padding: 1%;
+}
 
 .gutter-bottom {
-	padding-bottom: 1%;
+	padding: 1%;
 }
 
 .gutter-left {
