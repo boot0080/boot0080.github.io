@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Ariah Boots · Design Creative · Ottawa, Canada</title>
 	<link href="css/reset.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/grids.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 	<meta name="description" content="Ariah Boots, Graphic Design professional based in Ottawa, Canada.">
 	<!-- Facebook meta tags, also works for Pinterest -->
 	<meta property="og:type" content="article">
@@ -33,66 +33,104 @@
 	<meta name="twitter:image1" content="http://ariahboots.ca/img/portfolio#2.jpg">
 	<meta name="twitter:image2" content="http://ariahboots.ca/img/portfolio#3.jpg">
 	<meta name="twitter:image3" content="http://ariahboots.ca/img/portfolio#4.jpg">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300, 600,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!--///////////////////////////////////////////////// Masthead -->
-	<body class="home">
+<body class="home">
 		<header>
 			<a href="index.html"><img src="images/logo-placeholder.svg" alt="Ariah Boots" class="logo"></a>
-			<a href="#nav" class="nav-btn hide-text" data-state="inactive"></a>
-			<nav class="nav nav-top" data-state="collapsed">
-				<ul>
-					<li><a href="#about">About</a></li>	
-					<li><a href="#portfolio-display">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-
+			<a href="#nav" class="nav-btn hide-text">Navigation</a>
+        <nav class="nav nav-top font_small" data-state="collapsed">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio-display">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+		
 <!-- ///////////////////////////////////////////////////////////////////Open Page -->
 
-<div id="welcome">		
+<section id="welcome">		
 
 
 
-</div>
+</section>
 	
 	<!-- ////////////////////////////////////////////////////////////////// About -->	
-	<div id="about">		
-		<h2> Hi! Nice to meet you.</h2>
-				
-		<h6>Coffee Addict • Typographer • Illustrator • Adventure Seeker • Devoted Snowboarder</h6>
-			
-		<p class="about-left">I am a design enthusiast from Ottawa with an education in Graphic Design from Algonquin College. I seek a life filled with adventure and enjoy endless afternoons in coffee shops. I believe that travel is the one thing in life you can buy that makes you richer.  My extrovert personality craves meeting new people and sharing ideas and inspiration.</p>
-		<p class="about-right">As a designer I am immensely passionate about creating innovative designs and turning concepts into something the whole world can see. I embrace the process and realize sometimes the best work is what you find at 3am. It’s a beautiful thing when passion and a career come together because when you love what you do, you don’t work a day in your life.</p>
-	</div>
+	<section id="about" class="grid">		
+		<h2 class="about-title unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1"> Hi! Nice to meet you.</h2>
+		<h6 class="info unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">Coffee Addict • Typographer • Illustrator • Adventure Seeker • Devoted Snowboarder</h6>
+		<p class="gutter-right unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">I am a design enthusiast from Ottawa with an education in Graphic Design from Algonquin College. I seek a life filled with adventure and enjoy endless afternoons in coffee shops. I believe that travel is the one thing in life you can buy that makes you richer.  My extrovert personality craves meeting new people and sharing ideas and inspiration.</p>
+		<p class="gutter-left unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">As a designer I am immensely passionate about creating innovative designs and turning concepts into something the whole world can see. I embrace the process and realize sometimes the best work is what you find at 3am. It’s a beautiful thing when passion and a career come together because when you love what you do, you don’t work a day in your life.</p>
+	</section>
+		
 <!-- //////////////////////////////////////////////////////////// Skills -->	
-	<div id="skills">		
-		<div class="branding">
-			<h6>Branding</h6>
+		
+	<section id="skills" class="grid">		
+		<div class="gutter-right unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 branding">
+			<img src="images/logo-placeholder.svg" alt="Branding" class="skills-img">
+			<h6 class="title">Branding</h6>
+			<p>It's first on the list for a reason. There is nothing more exciting than working with an exisiting brand or starting from scratch.</p>
 		</div>
-		<div class="print-packaging">
-			<h6>Print & Packaging</h6>
+		<div class="gutter-left gutter-right unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 print-packaging">
+			<img src="images/logo-placeholder.svg" alt="Print and Packaging" class="skills-img">
+			<h6 class="title">Print & Packaging</h6>
+			<p>Every project allows for new and innovative ideas while exploring with typography, market research and attention to the details.</p>
 		</div>
-		<div class="web-mobile">
-			<h6>Web & Mobile</h6>
+		<div class="gutter-left unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 web-mobile">
+			<img src="images/logo-placeholder.svg" alt="Web and Mobile" class="skills-img">
+			<h6 class="title">Web & Mobile</h6>
+			<p>Anywhere from UX design to web design with HTML/CSS the design process begins with considering every aspect of the interaction.</p>
 		</div>
-	</div>
+	</section>
 	
 <!-- //////////////////////////////////////////////////////////// Portfolio -->	
-			<div id="portfolio-display">		
-			<h2>Portfolio</h2>
-	</div>
+	<section id="portfolio-display" class="grid no-padding">		
+		<h2 class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1">Portfolio</h2>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-1">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-2">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>	
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-3">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-4">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-5">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-6">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-7">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+		
+		<div class="gutter gutter-bottom unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-4 portfolio-8">
+			<img src="http://placehold.it/500x450&amp;text=Feature+Image" alt="" class="flex-img">
+		</div>
+	</section>
 	
 			<!-- ///////////////////////////////////////////////////////// Contact -->	
-			<div id="contact">		
+		<section id="contact">		
 				<h2>Let's Chat</h2>
 				
 				<p>Ottawa</p>
 				<p>613-863-0426</p>
 				<p>hello@ariahboots.ca</p>
-	</div>
+	</section>
 
 		
 	<!-- ///////////////////////////////////////////////////////// Footer -->
@@ -101,6 +139,6 @@
 			<p class="copyright micro">Copyright © 2014 • Ariah Boots</p>
 		</footer>
 
-	<script src="js/nav.js"></script>
-	</body>
+		<script src="js/nav.js"></script>
+</body>
 </html>
