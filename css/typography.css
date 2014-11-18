@@ -127,17 +127,17 @@ a:link {
     transition: all 200ms linear;
 }
 
-
+/*
 a:visited {
   color: #;
   border-bottom-color: ;
 }
-
+*/
 
 a:hover,
 a:focus,
 a:active {
-  color:#B8DCD3;
+  color: #B8DCD3;
   border-bottom-color: #B8DCD3;
 }
 
@@ -234,7 +234,7 @@ hr::after {
 
 
 footer, cite {
-  display: block    
+  display: block;    
   color: #343434; 
   margin-top: -1.5rem;
   text-align: right;
