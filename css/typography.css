@@ -109,7 +109,7 @@ p {
 .giga, .tera {
 }
             
-::selection {
+:selection {
   background-color: #B8DCD3;
   color: #343434;
 }
