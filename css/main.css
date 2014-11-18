@@ -45,17 +45,18 @@ body{
 }
 
 header {
-	height: 35px;
+	height: 70px;
 	width: 100%;
 }
 
 .logo {
-	width: 7em;
-	height: 7em;
-	top: .75em;
-	left: .75em;
+	width: 4em;
+	height: 4em;
+	top: .2em;
+	left: .2em;
 	position: absolute;
 	z-index: 9000;
+	
 }
 
 .nav-btn,
@@ -66,10 +67,10 @@ header {
 	right: 0;
 	top: 0;
 	position: absolute;
-	height: 35px;
-	width: 35px;
+	height: 70px;
+	width: 70px;
 	background: url('../images/nav.png') no-repeat center center;
-	background-size: 16px; 
+	background-size: 25px; 
 	-webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
@@ -84,7 +85,7 @@ header {
 
 .nav-top a:first-child {
 	position: relative;
-	top: 35px;
+	top: 70px;
 }
 
 .nav-top a, 
@@ -125,6 +126,17 @@ header {
 
 @media only screen and (min-width: 35em) {
 		
+	.logo {
+		width: 7em;
+		height: 7em;
+		top: .5em;
+		left: .5em;
+	}
+	
+	header {
+		height: 35px;
+	}
+
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
@@ -153,13 +165,14 @@ header {
 	.nav-top a, 
 	.nav-top a:link,
 	.nav-top a:visited{
-		top: .25rem;
+		top: .75rem;
 		background-color: transparent;
 		padding-left: 20px;
 		border: none;
 	}
 	
 }
+
 
 /* Content */
 
@@ -225,10 +238,51 @@ section {
 
 /* Portfolio Pages */
 
-#portfolio-page {
-	background-color: #c9c9c9;
-		padding: 20em 5%;
+#portfolio-top {
+	background-image:url(http://placehold.it/550x550&amp;text=Feature+Image);
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
 }
+
+#portfolio-middle {
+	background-color: #8d8d8d;
+		padding: 10em 5%;
+}
+
+#portfolio-bottom {
+	background-color: #d8d8d8;
+}
+
+.portfolio-info {
+	text-align: center;
+}
+
+.social-media {
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Contact Pages */
+
+.contact-info {
+	text-align: center;
+	width: 100%;
+}
+
+.c-info {
+	line-height: .5em;
+}
+
+.icon {
+	width: 4em;
+	height: 4em;
+	margin: 1%;
+}
+
 
 /*footer*/
 
