@@ -47,6 +47,8 @@ body{
 header {
 	height: 70px;
 	width: 100%;
+	position: fixed;
+	background-color: #fff;
 }
 
 .logo {
@@ -257,14 +259,17 @@ section {
 }
 
 .portfolio-info {
-	text-align: center;
+	padding-top: 2em;
+}
+
+.portfolio-2 {
+	padding-bottom: 2em;
 }
 
 .social-media {
 	text-align: center;
 	width: 100%;
 }
-
 
 /* Contact Pages */
 
