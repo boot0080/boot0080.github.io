@@ -45,7 +45,7 @@ body{
 }
 
 header {
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	position: fixed;
 	background-color: #fff;
@@ -120,6 +120,7 @@ header {
 
 .nav-top{
 	display: none;
+	background-color: #fff;
 }
 
 .nav-top[data-state="expanded"]{
