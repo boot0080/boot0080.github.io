@@ -45,10 +45,10 @@ body{
 }
 
 header {
-	height: 60px;
+	height: 70px;
 	width: 100%;
 	position: fixed;
-	background-color: #fff;
+	background-color: #5E5866;
 }
 
 .logo {
@@ -120,7 +120,7 @@ header {
 
 .nav-top{
 	display: none;
-	background-color: #fff;
+
 }
 
 .nav-top[data-state="expanded"]{
@@ -152,6 +152,7 @@ header {
 		display: inline-block;
 		overflow: auto;
 		padding-right: 2em;
+		background-color: #5E5866;
 	}
 	
 	.nav ul {
@@ -206,14 +207,16 @@ section {
 	text-transform: uppercase;
 	font-weight: 600;
 	text-align: center;
+	color: #f5ae7d;
 }
 
 .about, p {
 	line-height: 1.75em;
+	color: #717171;
 }
 
 #skills {
-	background-color: #e0e0e0;
+	background-color: rgba(255, 239, 213, 0.5);
 	text-align: center;
 }
 
@@ -228,14 +231,15 @@ section {
 	text-transform: uppercase;
 	font-size: 1.25em;
 	font-weight: 600;
+	color: #f5ae7d;
 }
 
 #contact {
-	background-color: #656565;
+	background-color: #B8DCD3;
 }
 
 #portfolio-display {
-	background-color: #c1c1c1;	
+	background-color: rgba(232, 232, 232, 0.46);	
 }
 
 

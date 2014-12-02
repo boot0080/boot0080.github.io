@@ -121,7 +121,8 @@ p {
 
 a, 
 a:link {
-    color: #5E5866;
+		color: #fff;
+		letter-spacing: 0.05em;
     text-decoration: none;
     border-bottom: 0.06em solid rgba(184, 220, 211, 0.46);
     transition: all 200ms linear;
