@@ -256,7 +256,7 @@ section {
 	color: #e6e6e6;
 }
 
-#portfolio-top {
+#portfolio-top-1 {
 	background: url(../images/fernie.jpg)  no-repeat center center fixed;
 	background-color: transparent;
 	background-size: cover;
@@ -265,6 +265,73 @@ section {
 	height: 80vh;
 }
 
+#portfolio-top-2 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-3 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-3 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-4 {
+	background: url(../images/mark-mcmorris-mag.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-5 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-6 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+#portfolio-top-7 {
+	background: url(../images/fernie.jpg)  no-repeat center center fixed;
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+
+.portfolio-gutter {
+	padding-bottom: 2em;
+}
 
 #portfolio-middle {
 	background-color: rgba(94, 88, 102, 0.71);
