@@ -45,17 +45,17 @@ body{
 }
 
 header {
-	height: 70px;
+	height: 85px;
 	width: 100%;
 	position: fixed;
 	background-color: #5E5866;
 }
 
 .logo {
-	width: 4em;
-	height: 4em;
+	width: 5em;
+	height: 5em;
 	top: .2em;
-	left: .2em;
+	left: .5em;
 	position: absolute;
 	z-index: 9000;
 	
@@ -69,8 +69,8 @@ header {
 	right: 0;
 	top: 0;
 	position: absolute;
-	height: 70px;
-	width: 70px;
+	height: 85px;
+	width: 85px;
 	background: url('../images/nav.png') no-repeat center center;
 	background-size: 25px; 
 	-webkit-transition: all 300ms ease-in-out;
@@ -87,7 +87,7 @@ header {
 
 .nav-top a:first-child {
 	position: relative;
-	top: 70px;
+	top: 85px;
 }
 
 .nav-top a, 
@@ -96,7 +96,7 @@ header {
 	display: block;
 	text-align: center;
 	padding: 0.4rem 0;
-	background-color: rgba(25, 25, 25, 0.28);
+	background-color: rgba(94, 88, 102, 0.69);
 	border-bottom: 1px solid #fff;
 	border-top: 1px solid #fff;
 	margin-top: -1px;
@@ -130,10 +130,10 @@ header {
 @media only screen and (min-width: 35em) {
 		
 	.logo {
-		width: 7em;
-		height: 7em;
+		width: 8em;
+		height: 8em;
 		top: .5em;
-		left: .5em;
+		left: .8em;
 	}
 	
 	header {
@@ -168,15 +168,14 @@ header {
 	
 	.nav-top a, 
 	.nav-top a:link,
-	.nav-top a:visited{
+	.nav-top a:visited {
 		top: .75rem;
 		background-color: transparent;
 		padding-left: 20px;
 		border: none;
 	}
-	
-}
 
+}
 
 /* Content */
 
@@ -190,13 +189,17 @@ section {
 }
 
 #welcome {
-	background-image:url(http://placehold.it/550x550&amp;text=Feature+Image);
+	background: url(../images/banner-portrait.jpg)  no-repeat center center fixed;
 	background-color: transparent;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	height: 100vh;
 }
+
 
 .about-title {
 	text-align: center;
@@ -216,13 +219,13 @@ section {
 }
 
 #skills {
-	background-color: rgba(255, 239, 213, 0.5);
+	background-color: rgba(255, 239, 213, 0.31);
 	text-align: center;
 }
 
 .skills-img {
-	width: 10em;
-	height: 10em;
+	width: 12em;
+	height: 12em;
 	padding-bottom: 1.25em;
 }
 
@@ -235,7 +238,7 @@ section {
 }
 
 #contact {
-	background-color: #B8DCD3;
+	background-color: rgba(184, 220, 211, 0.73);
 }
 
 #portfolio-display {
@@ -281,10 +284,12 @@ section {
 .contact-info {
 	text-align: center;
 	width: 100%;
+	line-height: .3em;
 }
 
 .c-info {
 	line-height: .5em;
+	text-align: center;
 }
 
 .icon {
