@@ -368,12 +368,55 @@ section {
 	text-align: center;
 }
 
+.button {
+	width: 100%;
+	color: #AFAFAF;
+   background-color: #FFF;
+	display: block;
+	font-family:'Open Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+	font-weight: 600;
+	font-size: 15px;
+	max-width: 200px;
+	margin: 0px auto;
+	text-transform: uppercase;
+	padding: 22px 15px 15px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	
+	-webkit-transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+       -moz-transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+         -o-transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+        -ms-transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+            transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+a.button:hover {
+	color: #fff;
+	border-color: #AFAFAF;
+	background: #f5ae7d;
+	text-decoration: none;
+}
+
+
+
 .icon {
 	width: 4em;
 	height: 4em;
 	margin: 1%;
+	box-shadow:rgba(255,255,255,1);
+  transition: background 0.3s, color 0.3s; 
+	padding: .95em;
+	border-radius: 100px;
 }
 
+.icon:hover {
+		background: #F5BB93;
+    color: #64bb5d;
+		border-radius: 100px;
+}
 
 /*footer*/
 
