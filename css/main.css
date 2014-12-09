@@ -140,6 +140,10 @@ header {
 		height: 35px;
 	}
 
+	strong {
+		font-weight: 700;
+	}
+	
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
@@ -200,10 +204,14 @@ section {
 	height: 100vh;
 }
 
+#about {
+	background-color: rgba(184, 220, 211, 0.15);
+}
 
 .about-title {
 	text-align: center;
 	padding-bottom: .75em;
+	color: #5E5866;
 }
 
 .info {
@@ -346,13 +354,11 @@ section {
 	padding-top: 2em;
 }
 
-.portfolio-3 {
-	
-}
 
 .social-media {
 	text-align: center;
 	width: 100%;
+	padding-top: 1.5em;
 }
 
 /* Contact Pages */
@@ -361,6 +367,13 @@ section {
 	text-align: center;
 	width: 100%;
 	line-height: .3em;
+	color: #727272;
+}
+
+.contact-bottom {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	letter-spacing: 1.5px;
 }
 
 .c-info {
@@ -370,8 +383,7 @@ section {
 
 .button {
 	width: 100%;
-	color: #AFAFAF;
-   background-color: #FFF;
+  background-color: rgba(245, 174, 125, 0.53);
 	display: block;
 	font-family:'Open Sans', sans-serif;
   text-decoration: none;
@@ -379,10 +391,12 @@ section {
   margin: 0 auto;
 	font-weight: 600;
 	font-size: 15px;
-	max-width: 200px;
+	max-width: 175px;
 	margin: 0px auto;
+	
+	
 	text-transform: uppercase;
-	padding: 22px 15px 15px;
+	padding: 15px 15px 15px;
 	letter-spacing: 2px;
 	border-radius: 40px;
 	
@@ -394,12 +408,10 @@ section {
 }
 
 a.button:hover {
-	color: #fff;
-	border-color: #AFAFAF;
 	background: #f5ae7d;
 	text-decoration: none;
+	color: #fff;
 }
-
 
 
 .icon {
@@ -420,3 +432,8 @@ a.button:hover {
 
 /*footer*/
 
+footer {
+	padding-top: 1.5em;
+	padding-right: 1em;
+	
+}
