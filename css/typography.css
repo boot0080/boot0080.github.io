@@ -122,9 +122,6 @@ p {
 a, 
 a:link {
 		color: #fff;
-		letter-spacing: 0.05em;
-    text-decoration: none;
-    border-bottom: 0.06em solid rgba(184, 220, 211, 0.46);
     transition: all 200ms linear;
 }
 
@@ -135,12 +132,6 @@ a:visited {
 }
 */
 
-a:hover,
-a:focus,
-a:active {
-  color: #B8DCD3;
-  border-bottom-color: #B8DCD3;
-}
 
 a:hover, 
 a:active {
