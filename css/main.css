@@ -140,13 +140,17 @@ p {
 
 .sub-title {
     font-weight: 300;
+    padding-bottom: 1.5em;
+    text-align: center; 
 }
 
 .title {
-    font-size: 24px;   
+    font-size: 24px; 
+    padding-bottom: .25em;
+    text-align: center; 
 }
 
-h2,
+
 .sub-title {
     text-align: center;  
 }
@@ -251,6 +255,7 @@ footer ul li {
 .portfolio-info p{
     color: #fff;
     z-index: 9999;
+    padding-bottom: .45em;
 }
 
 h2 {
