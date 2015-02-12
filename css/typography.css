@@ -36,10 +36,10 @@ html {
   font: normal 100%/1.5 Open Sans, serif; /* 16px/24px */
 }
 
-h1, h2, h3, h4, h5, h6,
+/*h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, table, hr {
   margin: 0 0 1.5rem;
-}
+} */
 
 .yotta {
   font-size: 3.5832rem;
@@ -132,19 +132,20 @@ a:visited {
 }
 */
 
-
+/*
 a:hover, 
 a:active {
 	/*It is okay to remove the focus rectangle for mouse actions */
-	outline: none;
-}
-	
+/*	outline: none;
+} */
+/*	
 a:focus, 
 input:focus,
 button:focus {
 		/*Focus MUST ALWAYS have a focus rectangle for keyboard users */
-		outline: 3px solid #343434;
+	/*	outline: 3px solid #343434;
 }
+*/
 
 ul {
   list-style-type: none;
